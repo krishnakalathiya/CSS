@@ -1,0 +1,100 @@
+/* Tag selector */
+body {
+  background: #f2f2f2;
+}
+
+/* Class selector */
+.coffee-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+/* Multi-class selector */
+.coffee-card.featured {
+  border: 2px solid #ff9800;
+}
+
+/* ID selector */
+#site-footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+/* Coffee Card Styles */
+.coffee-card {
+  background: white;
+  width: 250px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  position: relative;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect */
+.coffee-card:hover {
+  transform: scale(1.05);
+}
+
+/* Float badge */
+.badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: crimson;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 4px;
+  float: left;
+}
+
+/* Text Styling */
+.coffee-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.description {
+  text-align: center;
+  color: #555;
+  font-size: 14px;
+  display: block;
+}
+
+/* Inline-block */
+.order-btn {
+  background: linear-gradient(to right, #6f4e37, #b5651d);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px auto 0;
+  display: block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Responsive (Media Query) */
+@media screen and (max-width: 768px) {
+  .coffee-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coffee-card {
+    width: 90%;
+  }
+
+  .order-btn {
+    display: block;
+    width: 100%;
+  }
+}

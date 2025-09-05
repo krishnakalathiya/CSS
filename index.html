@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Shop</title>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font & Icon Attachments -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet" />
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+      text-align: center;
+      text-transform: uppercase;
+      background: linear-gradient(to right, #6f4e37, #b5651d);
+      color: white;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Coffee Haven <i class="fas fa-mug-hot"></i></h1>
+
+  <section class="coffee-section">
+    <div class="coffee-card discount">
+      <span class="badge">-20%</span>
+      <img src="https://source.unsplash.com/200x150/?coffee" alt="Coffee" />
+      <h2 class="coffee-title">Espresso</h2>
+      <p class="description">Strong and bold</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+
+    <div class="coffee-card featured">
+      <img src="https://source.unsplash.com/200x150/?latte" alt="Latte" />
+      <h2 class="coffee-title">Latte</h2>
+      <p class="description">Creamy and smooth</p>
+      <button class="order-btn" style="display: inline-block;">Order Now</button>
+    </div>
+
+    <div class="coffee-card">
+      <img src="https://source.unsplash.com/200x150/?cappuccino" alt="Cappuccino" />
+      <h2 class="coffee-title">Cappuccino</h2>
+      <p class="description">Foamy delight</p>
+      <button class="order-btn">Order Now</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="site-footer">
+    <p>&copy; 2025 Coffee Haven. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
